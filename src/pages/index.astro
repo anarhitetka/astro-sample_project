@@ -1,20 +1,21 @@
 ---
 // import Layout from "../layouts/Layout.astro";
 // import Card from "../components/Card.astro";
-import '../styles/global.css';
+import "../styles/global.css";
+
+import Navigation from "../components/Navigation.astro";
 
 const pageTitle = "Home Page";
 ---
+
 <html lang="en">
   <head>
-    <meta charset ="utf-8" />
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>{pageTitle}</title>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/blog/">Blog</a>
-    <a href="/about/">About</a>
+    <Navigation />
     <h1>{pageTitle}</h1>
     <h1>My Astro Playground</h1>
   </body>
