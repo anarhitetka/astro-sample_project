@@ -3,5 +3,12 @@ const { url, title } = Astro.props;
 ---
 
 <li>
-  <a href={url}>{title}</a>
+  <a href={url} class="post-link">{title}</a>
 </li>
+
+<style>
+  .post-link {
+    text-decoration: none;
+    color: black;
+  }
+</style>
