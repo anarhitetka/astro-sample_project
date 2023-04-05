@@ -88,3 +88,17 @@ a:focus {
     display: none;
   }
 }
+
+/* theme styles  */
+html.dark {
+  background-color: #3e3e4e;
+  color: #fff;
+}
+
+html.dark .page-title {
+  color: white;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
